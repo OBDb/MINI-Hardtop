@@ -1,0 +1,26 @@
+command_id: 6F1.618.22DA37|e=18,fc=1
+test_cases:
+- response: |-
+    618F1100F62DA370096
+    618F121A27D00003F84
+    618F122000006E0FFFF
+  expected_values:
+    MINI_TIME_D: 0
+    MINI_TIME_M: 162
+    MINI_TIME_S: 150
+- response: |-
+    618F1100F62DA370096
+    618F121A28800003F84
+    618F122000006E0FFFF
+  expected_values:
+    MINI_TIME_D: 0
+    MINI_TIME_M: 162
+    MINI_TIME_S: 150
+- response: |-
+    618F1100F62DA370096
+    618F121A29500003F84
+    618F122000006E0FFFF
+  expected_values:
+    MINI_TIME_D: 0
+    MINI_TIME_M: 162
+    MINI_TIME_S: 150
