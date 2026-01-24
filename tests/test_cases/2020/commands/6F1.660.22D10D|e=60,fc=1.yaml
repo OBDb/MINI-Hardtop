@@ -42,3 +42,9 @@ test_cases:
   response: |-
     660F1100B62D10D0001
     660F121EC1D0001EC1D
+- expected_values:
+    MINI_ODO1: 133828
+    MINI_ODO2: 133828
+  response: |-
+    660F1100B62D10D0002
+    660F1210AC400020AC4
