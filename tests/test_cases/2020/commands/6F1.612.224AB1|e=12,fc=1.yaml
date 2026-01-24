@@ -7,5 +7,5 @@ test_cases:
     MINI_VSS2: 2.5
   response: 612F105624AB100FA
 - expected_values:
-    MINI_VSS2: 66.47
-  response: 612F105624AB119F7
+    MINI_VSS2: 79.5
+  response: 612F105624AB11F0E
