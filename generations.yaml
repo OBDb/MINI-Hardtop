@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mini_Hatch"
+
 generations:
   - name: "First Generation (R50/R53)"
     start_year: 2001
