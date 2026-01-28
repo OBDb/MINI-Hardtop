@@ -1,13 +1,11 @@
 command_id: 6F1.618.22DA2E|e=18,fc=1
 test_cases:
 - expected_values:
-    MINI_GEAR: 0
     MINI_GEAR_SHIFT: PARK
   response: 618F10562DA2E0000
 - expected_values:
-    MINI_GEAR: 3
     MINI_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0304
 - expected_values:
-    MINI_GEAR: 9
+    MINI_GEAR: DRIVE
   response: 618F10562DA2E0903
