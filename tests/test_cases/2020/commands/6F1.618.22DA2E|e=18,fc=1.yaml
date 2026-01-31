@@ -11,6 +11,9 @@ test_cases:
     MINI_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0303
 - expected_values:
+    MINI_GEAR_SHIFT: DRIVE
+  response: 618F10562DA2E0304
+- expected_values:
     MINI_GEAR: DRIVE
   response: 618F10562DA2E0403
 - expected_values:
