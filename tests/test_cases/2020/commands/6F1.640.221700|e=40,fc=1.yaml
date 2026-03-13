@@ -20,3 +20,8 @@ test_cases:
   response: |-
     640F110076217000002
     640F1210FF4FFFFFFFF
+- expected_values:
+    MINI_ODO_2: 135191
+  response: |-
+    640F110076217000002
+    640F1211017FFFFFFFF
