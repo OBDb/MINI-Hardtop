@@ -1,20 +1,20 @@
 command_id: 6F1.629.22DBE4|e=29,fc=1
 test_cases:
 - expected_values:
-    MINI_FL_SPD: 0
-    MINI_FR_SPD: 0
-    MINI_RL_SPD: 0
-    MINI_RR_SPD: 0
+    MINI_FL_VSS: 0
+    MINI_FR_VSS: 0
+    MINI_RL_VSS: 0
+    MINI_RR_VSS: 0
   response: |-
     629F1101662DBE40000
     629F121000000000000
     629F122000003030303
     629F1230364646464FF
 - expected_values:
-    MINI_FL_SPD: 5.55
-    MINI_FR_SPD: 5.3
-    MINI_RL_SPD: 5.56
-    MINI_RR_SPD: 5.25
+    MINI_FL_VSS: 5.55
+    MINI_FR_VSS: 5.3
+    MINI_RL_VSS: 5.56
+    MINI_RR_VSS: 5.25
   response: |-
     629F1101662DBE4022B
     629F1210212022C020D

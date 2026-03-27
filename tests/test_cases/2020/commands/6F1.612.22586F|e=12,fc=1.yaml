@@ -1,14 +1,14 @@
 command_id: 6F1.612.22586F|e=12,fc=1
 test_cases:
 - expected_values:
-    MINI_EOP: 3
+    MINI_EOP: 0.983
   response: 612F10562586F03D7
 - expected_values:
-    MINI_EOP: 12
+    MINI_EOP: 3.327
   response: 612F10562586F0CFF
 - expected_values:
-    MINI_EOP: 16
+    MINI_EOP: 4.096
   response: 612F10562586F1000
 - expected_values:
-    MINI_EOP: 23
+    MINI_EOP: 6.086
   response: 612F10562586F17C6
