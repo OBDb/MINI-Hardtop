@@ -2,10 +2,10 @@ command_id: 6F1.612.224300|e=12,fc=1
 test_cases:
 - expected_values:
     MINI_ET: -37.92
-  response: 612F1056243000C3C
+  response: 612F1056243000C2D
 - expected_values:
     MINI_ET: -36.58
   response: 612F1056243000DFF
 - expected_values:
     MINI_ET: -35.24
-  response: 612F1056243000E07
+  response: 612F1056243000E00
