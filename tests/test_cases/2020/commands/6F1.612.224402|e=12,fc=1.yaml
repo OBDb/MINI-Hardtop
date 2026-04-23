@@ -5,4 +5,4 @@ test_cases:
   response: 612F1056244020040
 - expected_values:
     MINI_EOT: -60
-  response: 612F10562440200C9
+  response: 612F10562440200CA
