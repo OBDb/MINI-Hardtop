@@ -37,17 +37,17 @@ test_cases:
     612F1210175054F008A
     612F122F7910008FFFF
 - expected_values:
+    MINI_LAMBDA: 0.59
+  response: |-
+    612F1100F62400B019D
+    612F121019F003B0085
+    612F122F7AE0008FFFF
+- expected_values:
     MINI_LAMBDA: 0.39
   response: |-
     612F1100F62400B01E0
     612F12101E300270094
     612F122F7FF0008FFFF
-- expected_values:
-    MINI_LAMBDA: 0.59
-  response: |-
-    612F1100F62400B01EE
-    612F12101EF003B0085
-    612F122F8060008FFFF
 - expected_values:
     MINI_LAMBDA: 1.78
   response: |-
