@@ -1,11 +1,11 @@
 command_id: 6F1.612.22400B|e=12,fc=1
 test_cases:
 - expected_values:
-    MINI_LAMBDA: 1.79
+    MINI_LAMBDA: 0.39
   response: |-
-    612F1100F62400B010E
-    612F121012E02B3008A
-    612F122F73B0008FFFF
+    612F1100F62400B00F8
+    612F12100FA01270085
+    612F122F7110008FFFF
 - expected_values:
     MINI_LAMBDA: 0.59
   response: |-
