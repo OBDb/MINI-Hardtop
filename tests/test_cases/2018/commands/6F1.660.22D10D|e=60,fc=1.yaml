@@ -1,0 +1,56 @@
+command_id: 6F1.660.22D10D|e=60,fc=1
+test_cases:
+- expected_values:
+    MINI_ODO: 110146
+    MINI_ODO_ALT: 110146
+  response: |-
+    660F1100B62D10D0001
+    660F121AE420001AE42
+- expected_values:
+    MINI_ODO: 127642
+    MINI_ODO_ALT: 127642
+  response: |-
+    660F1100B62D10D0001
+    660F121F29A0001F29A
+- expected_values:
+    MINI_ODO: 127643
+    MINI_ODO_ALT: 127643
+  response: |-
+    660F1100B62D10D0001
+    660F121F29B0001F29B
+- expected_values:
+    MINI_ODO: 127644
+    MINI_ODO_ALT: 127644
+  response: |-
+    660F1100B62D10D0001
+    660F121F29C0001F29C
+- expected_values:
+    MINI_ODO: 127725
+    MINI_ODO_ALT: 127725
+  response: |-
+    660F1100B62D10D0001
+    660F121F2ED0001F2ED
+- expected_values:
+    MINI_ODO: 127726
+    MINI_ODO_ALT: 127726
+  response: |-
+    660F1100B62D10D0001
+    660F121F2EE0001F2EE
+- expected_values:
+    MINI_ODO: 127727
+    MINI_ODO_ALT: 127727
+  response: |-
+    660F1100B62D10D0001
+    660F121F2EF0001F2EF
+- expected_values:
+    MINI_ODO: 127728
+    MINI_ODO_ALT: 127728
+  response: |-
+    660F1100B62D10D0001
+    660F121F2F00001F2F0
+- expected_values:
+    MINI_ODO: 127729
+    MINI_ODO_ALT: 127729
+  response: |-
+    660F1100B62D10D0001
+    660F121F2F10001F2F1
