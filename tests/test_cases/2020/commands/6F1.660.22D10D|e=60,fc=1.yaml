@@ -1,6 +1,18 @@
 command_id: 6F1.660.22D10D|e=60,fc=1
 test_cases:
 - expected_values:
+    MINI_ODO: 109118
+    MINI_ODO_ALT: 109118
+  response: |-
+    660F1100B62D10D0001
+    660F121AA3E0001AA3E
+- expected_values:
+    MINI_ODO: 109119
+    MINI_ODO_ALT: 109119
+  response: |-
+    660F1100B62D10D0001
+    660F121AA3F0001AA3F
+- expected_values:
     MINI_ODO: 125535
     MINI_ODO_ALT: 125535
   response: |-
