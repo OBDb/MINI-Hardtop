@@ -1,0 +1,11 @@
+command_id: 6F1.612.2257C3|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_OIL_TEMP_ALT: 94.1
+  response: 612F1056257C303AD
+- expected_values:
+    MINI_OIL_TEMP_ALT: 100
+  response: 612F1056257C303E8
+- expected_values:
+    MINI_OIL_TEMP_ALT: 103.4
+  response: 612F1056257C3040A
