@@ -1,6 +1,12 @@
 command_id: 6F1.612.22400B|e=12,fc=1
 test_cases:
 - expected_values:
+    MINI_LAMBDA: 0
+  response: |-
+    612F1100F62400B0046
+    612F12100460000007C
+    612F122F6550008FFFF
+- expected_values:
     MINI_LAMBDA: 0.39
   response: |-
     612F1100F62400B0102
@@ -12,6 +18,18 @@ test_cases:
     612F1100F62400B013D
     612F121013E003B008A
     612F122F7570008FFFF
+- expected_values:
+    MINI_LAMBDA: 2
+  response: |-
+    612F1100F62400B01D6
+    612F12101DD00EC0092
+    612F122F7EC0008FFFF
+- expected_values:
+    MINI_LAMBDA: 0.7
+  response: |-
+    612F1100F62400B01E0
+    612F12101ED0046008A
+    612F122F7FC0008FFFF
 - expected_values:
     MINI_LAMBDA: 0.59
   response: |-
@@ -25,23 +43,17 @@ test_cases:
     612F12101FA0027008A
     612F122F8130008FFFF
 - expected_values:
-    MINI_LAMBDA: 2
-  response: |-
-    612F1100F62400B0340
-    612F121034600EC008A
-    612F122F9550008FFFF
-- expected_values:
-    MINI_LAMBDA: 0.59
-  response: |-
-    612F1100F62400B07B4
-    612F12107BC003B008A
-    612F122FDCB0008FFFF
-- expected_values:
     MINI_LAMBDA: 1.38
   response: |-
     612F1100F62400B0851
     612F121083E018A008A
     612F122FE4C0008FFFF
+- expected_values:
+    MINI_LAMBDA: 1.18
+  response: |-
+    612F1100F62400B08B9
+    612F12108A703760089
+    612F122FEB60008FFFF
 - expected_values:
     MINI_LAMBDA: 0
   response: |-
@@ -53,4 +65,4 @@ test_cases:
   response: |-
     612F1100F62400B09EC
     612F12109F20000007C
-    612F12200080008FFFF
+    612F12200000008FFFF
