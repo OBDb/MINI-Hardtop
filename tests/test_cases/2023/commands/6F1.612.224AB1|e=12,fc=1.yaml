@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     MINI_VSS2: 0
   response: 612F105624AB10000
+- expected_values:
+    MINI_VSS2: 45.82
+  response: 612F105624AB111E6
+- expected_values:
+    MINI_VSS2: 64.46
+  response: 612F105624AB1192E

@@ -1,14 +1,11 @@
 command_id: 6F1.612.224506|e=12,fc=1
 test_cases:
 - expected_values:
-    MINI_OIL_TEMP: 9
-  response: 612F10562450609A6
+    MINI_OIL_TEMP: 0
+  response: 612F1056245060000
 - expected_values:
-    MINI_OIL_TEMP: 44
-  response: 612F1056245062CE1
-- expected_values:
-    MINI_OIL_TEMP: 75
-  response: 612F1056245064B0F
+    MINI_OIL_TEMP: 46
+  response: 612F1056245062EF5
 - expected_values:
     MINI_OIL_TEMP: 111
   response: 612F1056245066FAB
