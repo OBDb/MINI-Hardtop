@@ -7,5 +7,5 @@ test_cases:
     MINI_AAT: 32
   response: 660F10562D11290B4
 - expected_values:
-    MINI_AAT: 38.5
-  response: 660F10562D1129D9D
+    MINI_AAT: 40
+  response: 660F10562D112A0A1
