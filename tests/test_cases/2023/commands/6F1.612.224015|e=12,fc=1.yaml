@@ -1,7 +1,7 @@
 command_id: 6F1.612.224015|e=12,fc=1
 test_cases:
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E15F4103BEFC
@@ -32,7 +32,7 @@ test_cases:
     612F12A6E0C06013300
     612F12B01FFFFFFFFFF
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E15F4103BEFC
@@ -63,7 +63,7 @@ test_cases:
     612F12A6E0C06013300
     612F12B01FFFFFFFFFF
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E26D4106BEF9
@@ -94,7 +94,7 @@ test_cases:
     612F12A700C06013300
     612F12B01FFFFFFFFFF
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E49000000000
@@ -125,7 +125,7 @@ test_cases:
     612F12A000000000000
     612F12B00FFFFFFFFFF
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E4904103BEFC
@@ -156,7 +156,7 @@ test_cases:
     612F12A750C06013300
     612F12B01FFFFFFFFFF
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E4904104BEFB
@@ -187,7 +187,7 @@ test_cases:
     612F12A740C06013300
     612F12B01FFFFFFFFFF
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E99F4104BEFB
@@ -218,7 +218,7 @@ test_cases:
     612F12A760C06013300
     612F12B01FFFFFFFFFF
 - expected_values:
-    MINI_IAT: 106
+    HARDTOP_IAT: 106
   response: |-
     612F110A2624015006A
     612F121E99F4104BEFB
