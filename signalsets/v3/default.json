@@ -104,7 +104,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "HARDTOP_EOT", "path": "Engine", "fmt": { "len": 8, "max": 195, "min": -60, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "HARDTOP_EOT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4408"}, "freq": 5,
   "signals": [
