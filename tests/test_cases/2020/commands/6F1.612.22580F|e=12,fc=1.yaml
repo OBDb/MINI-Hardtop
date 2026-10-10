@@ -1,0 +1,17 @@
+command_id: 6F1.612.22580F|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_IAT_DME: 44.25
+  response: 612F10462580F7B
+- expected_values:
+    HARDTOP_IAT_DME: 51.75
+  response: 612F10462580F85
+- expected_values:
+    HARDTOP_IAT_DME: 58.5
+  response: 612F10462580F8E
+- expected_values:
+    HARDTOP_IAT_DME: 59.25
+  response: 612F10462580F8F
+- expected_values:
+    HARDTOP_IAT_DME: 60
+  response: 612F10462580F90

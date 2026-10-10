@@ -1,0 +1,17 @@
+command_id: 6F1.612.2256D7|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_FRP: 209.5
+  response: 612F1056256D728EB
+- expected_values:
+    HARDTOP_FRP: 211.66
+  response: 612F1056256D72957
+- expected_values:
+    HARDTOP_FRP: 213.7
+  response: 612F1056256D729BD
+- expected_values:
+    HARDTOP_FRP: 248.96
+  response: 612F1056256D730A0
+- expected_values:
+    HARDTOP_FRP: 401.4
+  response: 612F1056256D74E66
