@@ -1,0 +1,8 @@
+command_id: 6F1.612.225889|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_LAMBDA: 1.01613
+  response: 612F1056258891042
+- expected_values:
+    HARDTOP_LAMBDA: null
+  response: 612F105625889FFFF

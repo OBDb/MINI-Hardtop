@@ -1,0 +1,11 @@
+command_id: 6F1.612.224AB0|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_BOOST_P_SET: 0
+  response: 612F105624AB00000
+- expected_values:
+    HARDTOP_BOOST_P_SET: 97.83594
+  response: 612F105624AB061D6
+- expected_values:
+    HARDTOP_BOOST_P_SET: 98.13672
+  response: 612F105624AB06223

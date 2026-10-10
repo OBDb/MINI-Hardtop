@@ -1,0 +1,17 @@
+command_id: 6F1.612.22558E|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_ODO_DME: 142632
+  response: |-
+    612F1100762558E0002
+    612F1212D28FFFFFFFF
+- expected_values:
+    HARDTOP_ODO_DME: 142641
+  response: |-
+    612F1100762558E0002
+    612F1212D31FFFFFFFF
+- expected_values:
+    HARDTOP_ODO_DME: 142642
+  response: |-
+    612F1100762558E0002
+    612F1212D32FFFFFFFF

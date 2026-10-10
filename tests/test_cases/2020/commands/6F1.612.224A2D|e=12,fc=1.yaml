@@ -1,0 +1,17 @@
+command_id: 6F1.612.224A2D|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_MAP: 97.82031
+  response: 612F105624A2D30E9
+- expected_values:
+    HARDTOP_MAP: 97.82812
+  response: 612F105624A2D30EA
+- expected_values:
+    HARDTOP_MAP: 97.85156
+  response: 612F105624A2D30ED
+- expected_values:
+    HARDTOP_MAP: 97.89844
+  response: 612F105624A2D30F3
+- expected_values:
+    HARDTOP_MAP: 98.38281
+  response: 612F105624A2D3131

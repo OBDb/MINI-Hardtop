@@ -1,0 +1,8 @@
+command_id: 6F1.630.22DB99|e=30,fc=1
+test_cases:
+- expected_values:
+    MINI_STEER_TQ: 0.10938
+  response: 630F10662DB99000E00
+- expected_values:
+    MINI_STEER_TQ: -0.09375
+  response: 630F10662DB99FFF400
