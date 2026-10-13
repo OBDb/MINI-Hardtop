@@ -1,0 +1,5 @@
+command_id: 6F1.612.22442C|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_OIL_LEVEL: 60
+  response: 612F10462442C3C

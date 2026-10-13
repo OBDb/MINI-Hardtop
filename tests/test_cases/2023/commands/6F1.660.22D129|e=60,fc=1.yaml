@@ -1,0 +1,9 @@
+command_id: 6F1.660.22D129|e=60,fc=1
+test_cases:
+- expected_values:
+    MINI_BC_AVG_CONS: 0
+    MINI_BC_AVG_SPD: 50.3
+    MINI_BC_RANGE: 0
+  response: |-
+    660F1100B62D1290000
+    660F12113A6FFFD0000
