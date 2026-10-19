@@ -11,15 +11,15 @@ test_cases:
     607F1100762DD690000
     607F12100ABFFFFFFFF
 - expected_values:
-    HARDTOP_HVBAT_CURR: 2.07
-  response: |-
-    607F1100762DD690000
-    607F12100CFFFFFFFFF
-- expected_values:
     HARDTOP_HVBAT_CURR: -37.7
   response: |-
     607F1100762DD69FFFF
     607F121F146FFFFFFFF
+- expected_values:
+    HARDTOP_HVBAT_CURR: -1.29
+  response: |-
+    607F1100762DD69FFFF
+    607F121FF7FFFFFFFFF
 - expected_values:
     HARDTOP_HVBAT_CURR: -0.51
   response: |-
