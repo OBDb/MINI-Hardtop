@@ -4,3 +4,7 @@ test_cases:
     MINI_AIR_DIST_L: 0
     MINI_AIR_DIST_R: 0
   response: 678F10562D91A0000
+- expected_values:
+    MINI_AIR_DIST_L: 43
+    MINI_AIR_DIST_R: 43
+  response: 678F10562D91A2B2B

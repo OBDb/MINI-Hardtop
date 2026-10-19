@@ -1,0 +1,32 @@
+command_id: 6F1.612.22DE9C|e=12,fc=1
+test_cases:
+- expected_values:
+    MINI_APP: 0
+  response: |-
+    612F1100962DE9C0092
+    612F12100490000FFFF
+- expected_values:
+    MINI_APP: 4.5625
+  response: |-
+    612F1100962DE9C00CD
+    612F12100660049FFFF
+- expected_values:
+    MINI_APP: 11.6875
+  response: |-
+    612F1100962DE9C00FA
+    612F121007C00BBFFFF
+- expected_values:
+    MINI_APP: 12.625
+  response: |-
+    612F1100962DE9C0101
+    612F121008000CAFFFF
+- expected_values:
+    MINI_APP: 21
+  response: |-
+    612F1100962DE9C0136
+    612F121009B0150FFFF
+- expected_values:
+    MINI_APP: 63.8125
+  response: |-
+    612F1100962DE9C024A
+    612F121012603FDFFFF
