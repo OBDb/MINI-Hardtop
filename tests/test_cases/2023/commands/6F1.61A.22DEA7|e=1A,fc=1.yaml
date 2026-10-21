@@ -1,6 +1,13 @@
 command_id: 6F1.61A.22DEA7|e=1A,fc=1
 test_cases:
 - expected_values:
+    MINI_EM_RPM: -3
+    MINI_EM_TQ: 9
+    MINI_EM_TQ_TGT: 1
+  response: |-
+    61AF1100A62DEA7270A
+    61AF1210012000205FF
+- expected_values:
     MINI_EM_RPM: 0
     MINI_EM_TQ: 0
     MINI_EM_TQ_TGT: 0
@@ -8,26 +15,12 @@ test_cases:
     61AF1100A62DEA72710
     61AF1210000000000FF
 - expected_values:
-    MINI_EM_RPM: 0
-    MINI_EM_TQ: 0.5
-    MINI_EM_TQ_TGT: 1
+    MINI_EM_RPM: 3
+    MINI_EM_TQ: -11.5
+    MINI_EM_TQ_TGT: -1.5
   response: |-
-    61AF1100A62DEA72710
-    61AF1210001000205FF
-- expected_values:
-    MINI_EM_RPM: 2
-    MINI_EM_TQ: 1
-    MINI_EM_TQ_TGT: 1
-  response: |-
-    61AF1100A62DEA72714
-    61AF1210002000205FF
-- expected_values:
-    MINI_EM_RPM: 203
-    MINI_EM_TQ: -34
-    MINI_EM_TQ_TGT: -34
-  response: |-
-    61AF1100A62DEA728A6
-    61AF121FFBCFFBC05FF
+    61AF1100A62DEA72716
+    61AF121FFE9FFFD05FF
 - expected_values:
     MINI_EM_RPM: 2163.5
     MINI_EM_TQ: 67
@@ -36,16 +29,23 @@ test_cases:
     61AF1100A62DEA737F7
     61AF1210086008705FF
 - expected_values:
-    MINI_EM_RPM: 2580.5
-    MINI_EM_TQ: 124
-    MINI_EM_TQ_TGT: 124
+    MINI_EM_RPM: 2426
+    MINI_EM_TQ: 55
+    MINI_EM_TQ_TGT: 54.5
   response: |-
-    61AF1100A62DEA73B39
-    61AF12100F800F805FF
+    61AF1100A62DEA73A04
+    61AF121006E006D05FF
 - expected_values:
-    MINI_EM_RPM: 2587.5
-    MINI_EM_TQ: 68
-    MINI_EM_TQ_TGT: 67.5
+    MINI_EM_RPM: 3221
+    MINI_EM_TQ: 16
+    MINI_EM_TQ_TGT: 15.5
   response: |-
-    61AF1100A62DEA73B47
-    61AF1210088008705FF
+    61AF1100A62DEA7403A
+    61AF1210020001F05FF
+- expected_values:
+    MINI_EM_RPM: 4360
+    MINI_EM_TQ: -3
+    MINI_EM_TQ_TGT: -6.5
+  response: |-
+    61AF1100A62DEA74920
+    61AF121FFFAFFF305FF
