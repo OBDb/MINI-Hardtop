@@ -139,6 +139,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 7E7.7EF.0104
   - 7E7.7EF.0105
+  - 7E7.7EF.010C
   - 7E7.7EF.0111
 unsupported_commands_by_ecu:
   "6F1":
@@ -230,6 +231,5 @@ unsupported_commands_by_ecu:
   - 7E0.019D:FUEL_RATE_ALT,VFUEL_RATE
   - 7E0.019E:EXH_RATE
   "7E7":
-  - 7E7.7EF.010C
   - 7E7.7EF.010D
   - 7E7.7EF.0142
