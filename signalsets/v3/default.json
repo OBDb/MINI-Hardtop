@@ -406,7 +406,7 @@
     {"id": "HARDTOP_RL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "HARDTOP_RR_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "HARDTOP_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front left tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "HARDTOP_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Front left tire pressure",                                      "suggestedMetric": "frontLeftTirePressure"},
@@ -414,7 +414,7 @@
     {"id": "HARDTOP_TP_SET_FL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Front left tire pressure, set point"},
     {"id": "HARDTOP_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Front left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "HARDTOP_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Front right tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "HARDTOP_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front right tire pressure",                                     "suggestedMetric": "frontRightTirePressure"},
@@ -422,7 +422,7 @@
     {"id": "HARDTOP_TP_SET_FR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front right tire pressure, set point"},
     {"id": "HARDTOP_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                          "name": "Front right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "HARDTOP_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear left tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "HARDTOP_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                        "name": "Rear left tire pressure",                                       "suggestedMetric": "rearLeftTirePressure"},
@@ -430,7 +430,7 @@
     {"id": "HARDTOP_TP_SET_RL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                        "name": "Rear left tire pressure, set point"},
     {"id": "HARDTOP_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                        "name": "Rear left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "HARDTOP_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                                         "unit": "scalar"  },               "name": "Rear right tire sensor position", "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "HARDTOP_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear right tire pressure",                                      "suggestedMetric": "rearRightTirePressure"},
@@ -438,7 +438,7 @@
     {"id": "HARDTOP_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear right tire pressure, set point"},
     {"id": "HARDTOP_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
@@ -446,7 +446,7 @@
   "signals": [
     {"id": "HARDTOP_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D130"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D130"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Parking brake applied"}
   ]},
@@ -489,13 +489,13 @@
   "signals": [
     {"id": "HARDTOP_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D129"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_BC_AVG_CONS", "path": "Engine", "fmt": {           "len": 16, "max": 6553, "div": 10,  "unit": "kilowattHoursPer100Kilometers" }, "name": "Trip computer average consumption"},
     {"id": "MINI_BC_AVG_SPD",  "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 655,  "div": 100, "unit": "kilometersPerHour"             }, "name": "Trip computer average speed"},
     {"id": "MINI_BC_RANGE",    "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10,  "unit": "kilometers"                    }, "name": "Trip computer range"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D12A"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "HARDTOP_CONS_KWH_100KM", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Consumption, kwh/100km"}
   ]},
@@ -511,28 +511,28 @@
   "signals": [
     {"id": "HARDTOP_GEAR_6F1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_AIR_DIST_L", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, left"},
     {"id": "MINI_AIR_DIST_R", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, right"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_HVAC_OFF", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Climate control off"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_HVAC_AUC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Automatic air recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022], "from": 2024 },
   "signals": [
     {"id": "MINI_HVAC_RECIRC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Recirculation"}
   ]}
