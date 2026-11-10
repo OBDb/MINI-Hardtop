@@ -8,4 +8,5 @@ test_cases:
   response: 618F10562DA2E0304
 - expected_values:
     HARDTOP_GEAR: DRIVE
+    HARDTOP_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0903
