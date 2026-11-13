@@ -1,11 +1,17 @@
 command_id: 6F1.612.225889|e=12,fc=1
 test_cases:
 - expected_values:
-    HARDTOP_LAMBDA: 0.99733
-  response: 612F1056258890FF5
+    HARDTOP_LAMBDA: 0.93068
+  response: 612F1056258890EE4
 - expected_values:
-    HARDTOP_LAMBDA: 1.01247
-  response: 612F1056258891033
+    HARDTOP_LAMBDA: 0.938
+  response: 612F1056258890F02
 - expected_values:
-    HARDTOP_LAMBDA: 1.02785
-  response: 612F1056258891072
+    HARDTOP_LAMBDA: 0.99806
+  response: 612F1056258890FF8
+- expected_values:
+    HARDTOP_LAMBDA: 9.41616
+  response: 612F10562588996A8
+- expected_values:
+    HARDTOP_LAMBDA: null
+  response: 612F105625889FFFF

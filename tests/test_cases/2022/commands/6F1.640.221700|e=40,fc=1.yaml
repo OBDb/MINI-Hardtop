@@ -5,3 +5,28 @@ test_cases:
   response: |-
     640F110076217000001
     640F121B4FFFFFFFFFF
+- expected_values:
+    HARDTOP_ODO_2: 111872
+  response: |-
+    640F110076217000001
+    640F121B500FFFFFFFF
+- expected_values:
+    HARDTOP_ODO_2: 111880
+  response: |-
+    640F110076217000001
+    640F121B508FFFFFFFF
+- expected_values:
+    HARDTOP_ODO_2: 111890
+  response: |-
+    640F110076217000001
+    640F121B512FFFFFFFF
+- expected_values:
+    HARDTOP_ODO_2: 111900
+  response: |-
+    640F110076217000001
+    640F121B51CFFFFFFFF
+- expected_values:
+    HARDTOP_ODO_2: 111910
+  response: |-
+    640F110076217000001
+    640F121B526FFFFFFFF

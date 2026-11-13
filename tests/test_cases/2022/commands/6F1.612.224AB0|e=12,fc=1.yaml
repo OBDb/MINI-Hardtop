@@ -1,8 +1,32 @@
 command_id: 6F1.612.224AB0|e=12,fc=1
 test_cases:
 - expected_values:
+    HARDTOP_BOOST_P_SET: 96.79688
+  response: 612F105624AB060CC
+- expected_values:
+    HARDTOP_BOOST_P_SET: 96.92188
+  response: 612F105624AB060EC
+- expected_values:
+    HARDTOP_BOOST_P_SET: 96.9375
+  response: 612F105624AB060F0
+- expected_values:
+    HARDTOP_BOOST_P_SET: 96.94922
+  response: 612F105624AB060F3
+- expected_values:
+    HARDTOP_BOOST_P_SET: 96.96094
+  response: 612F105624AB060F6
+- expected_values:
     HARDTOP_BOOST_P_SET: 96.97266
   response: 612F105624AB060F9
 - expected_values:
     HARDTOP_BOOST_P_SET: 96.98438
   response: 612F105624AB060FC
+- expected_values:
+    HARDTOP_BOOST_P_SET: 97
+  response: 612F105624AB06100
+- expected_values:
+    HARDTOP_BOOST_P_SET: 97.01172
+  response: 612F105624AB06103
+- expected_values:
+    HARDTOP_BOOST_P_SET: 97.03516
+  response: 612F105624AB06109

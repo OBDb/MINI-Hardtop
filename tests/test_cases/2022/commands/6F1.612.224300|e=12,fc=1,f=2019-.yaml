@@ -4,8 +4,8 @@ test_cases:
     HARDTOP_ET: 63.05
   response: 612F1056243000D22
 - expected_values:
-    HARDTOP_ET: 81.95
-  response: 612F1056243000DDF
-- expected_values:
     HARDTOP_ET: 82.75
   response: 612F1056243000DE7
+- expected_values:
+    HARDTOP_ET: 92.85
+  response: 612F1056243000E4C

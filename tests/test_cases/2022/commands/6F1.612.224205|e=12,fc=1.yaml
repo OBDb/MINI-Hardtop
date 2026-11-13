@@ -4,8 +4,11 @@ test_cases:
     HARDTOP_BOOST_P: 97.07031
   response: 612F1056242053089
 - expected_values:
-    HARDTOP_BOOST_P: 97.125
-  response: 612F1056242053090
+    HARDTOP_BOOST_P: 102.05469
+  response: 612F1056242053307
 - expected_values:
-    HARDTOP_BOOST_P: 97.1875
-  response: 612F1056242053098
+    HARDTOP_BOOST_P: 105.625
+  response: 612F10562420534D0
+- expected_values:
+    HARDTOP_BOOST_P: 110.11719
+  response: 612F105624205370F

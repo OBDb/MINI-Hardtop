@@ -7,5 +7,8 @@ test_cases:
     HARDTOP_EOT_DME: 67.55
   response: 612F1056244080D4F
 - expected_values:
-    HARDTOP_EOT_DME: 78.75
-  response: 612F1056244080DBF
+    HARDTOP_EOT_DME: 80.65
+  response: 612F1056244080DD2
+- expected_values:
+    HARDTOP_EOT_DME: 95.45
+  response: 612F1056244080E66

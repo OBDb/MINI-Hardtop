@@ -1,11 +1,11 @@
 command_id: 6F1.612.22480C|e=12,fc=1
 test_cases:
 - expected_values:
-    HARDTOP_LOAD_TGT: 13.99219
-  response: 612F10562480C0255
+    HARDTOP_LOAD_TGT: 12.49219
+  response: 612F10562480C0215
 - expected_values:
-    HARDTOP_LOAD_TGT: 14.32031
-  response: 612F10562480C0263
+    HARDTOP_LOAD_TGT: 34.66406
+  response: 612F10562480C05C7
 - expected_values:
-    HARDTOP_LOAD_TGT: 14.64844
-  response: 612F10562480C0271
+    HARDTOP_LOAD_TGT: 48.25781
+  response: 612F10562480C080B

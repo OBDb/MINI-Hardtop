@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     HARDTOP_IGN_ANGLE: 4.5
   response: 612F1046259FA06
+- expected_values:
+    HARDTOP_IGN_ANGLE: 15
+  response: 612F1046259FA14
+- expected_values:
+    HARDTOP_IGN_ANGLE: 16.5
+  response: 612F1046259FA16
+- expected_values:
+    HARDTOP_IGN_ANGLE: 17.25
+  response: 612F1046259FA17
+- expected_values:
+    HARDTOP_IGN_ANGLE: 19.5
+  response: 612F1046259FA1A
+- expected_values:
+    HARDTOP_IGN_ANGLE: -5.25
+  response: 612F1046259FAF9
+- expected_values:
+    HARDTOP_IGN_ANGLE: -0.75
+  response: 612F1046259FAFF

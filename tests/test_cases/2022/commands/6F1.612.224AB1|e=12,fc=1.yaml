@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     HARDTOP_VSS2: 0
   response: 612F105624AB10000
+- expected_values:
+    HARDTOP_VSS2: 112.59
+  response: 612F105624AB12BFB

@@ -4,8 +4,8 @@ test_cases:
     HARDTOP_CRANK_TQ: 32.6
   response: 612F1056258BA0146
 - expected_values:
-    HARDTOP_CRANK_TQ: 32.7
-  response: 612F1056258BA0147
+    HARDTOP_CRANK_TQ: 50.7
+  response: 612F1056258BA01FB
 - expected_values:
-    HARDTOP_CRANK_TQ: 34.8
-  response: 612F1056258BA015C
+    HARDTOP_CRANK_TQ: 104.5
+  response: 612F1056258BA0415

@@ -5,3 +5,13 @@ test_cases:
   response: |-
     612F1100762558F0000
     612F1211061FFFFFFFF
+- expected_values:
+    HARDTOP_ENG_HOURS: 2097
+  response: |-
+    612F1100762558F0000
+    612F1211062FFFFFFFF
+- expected_values:
+    HARDTOP_ENG_HOURS: 2097.5
+  response: |-
+    612F1100762558F0000
+    612F1211063FFFFFFFF

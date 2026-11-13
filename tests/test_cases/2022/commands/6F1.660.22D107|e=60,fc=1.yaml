@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     HARDTOP_VSS: 0
   response: 660F10562D1070000
+- expected_values:
+    HARDTOP_VSS: 31.2
+  response: 660F10562D1070138
+- expected_values:
+    HARDTOP_VSS: 33.7
+  response: 660F10562D1070151
+- expected_values:
+    HARDTOP_VSS: 76.2
+  response: 660F10562D10702FA
+- expected_values:
+    HARDTOP_VSS: 92.5
+  response: 660F10562D107039D
+- expected_values:
+    HARDTOP_VSS: 93.1
+  response: 660F10562D10703A3
+- expected_values:
+    HARDTOP_VSS: 95.4
+  response: 660F10562D10703BA
+- expected_values:
+    HARDTOP_VSS: 97.1
+  response: 660F10562D10703CB
+- expected_values:
+    HARDTOP_VSS: 100.3
+  response: 660F10562D10703EB

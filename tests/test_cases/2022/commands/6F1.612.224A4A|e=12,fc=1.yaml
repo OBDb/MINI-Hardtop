@@ -4,8 +4,8 @@ test_cases:
     HARDTOP_IGN_TIMING_2: 3.4
   response: 612F105624A4A0022
 - expected_values:
-    HARDTOP_IGN_TIMING_2: 3.9
-  response: 612F105624A4A0027
+    HARDTOP_IGN_TIMING_2: -11.4
+  response: 612F105624A4AFF8E
 - expected_values:
     HARDTOP_IGN_TIMING_2: -2.3
   response: 612F105624A4AFFE9
