@@ -4,8 +4,8 @@ test_cases:
     HARDTOP_CAT_T: 372.15
   response: 612F10562582F1935
 - expected_values:
-    HARDTOP_CAT_T: 388.25
-  response: 612F10562582F19D6
+    HARDTOP_CAT_T: 493.25
+  response: 612F10562582F1DF0
 - expected_values:
-    HARDTOP_CAT_T: 454.65
-  response: 612F10562582F1C6E
+    HARDTOP_CAT_T: 587.15
+  response: 612F10562582F219B

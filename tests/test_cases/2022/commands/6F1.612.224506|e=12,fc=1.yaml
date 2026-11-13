@@ -1,11 +1,14 @@
 command_id: 6F1.612.224506|e=12,fc=1
 test_cases:
 - expected_values:
-    HARDTOP_OIL_TEMP: 13
-  response: 612F1056245060DC5
+    HARDTOP_OIL_TEMP: 5
+  response: 612F1056245060552
 - expected_values:
-    HARDTOP_OIL_TEMP: 46
-  response: 612F1056245062E95
+    HARDTOP_OIL_TEMP: 37
+  response: 612F10562450625F2
+- expected_values:
+    HARDTOP_OIL_TEMP: 103
+  response: 612F1056245066716
 - expected_values:
     HARDTOP_OIL_TEMP: 111
-  response: 612F1056245066F30
+  response: 612F1056245066F1D

@@ -5,3 +5,18 @@ test_cases:
   response: |-
     612F1100762558E0001
     612F121B1ACFFFFFFFF
+- expected_values:
+    HARDTOP_ODO_DME: 111025
+  response: |-
+    612F1100762558E0001
+    612F121B1B1FFFFFFFF
+- expected_values:
+    HARDTOP_ODO_DME: 111039
+  response: |-
+    612F1100762558E0001
+    612F121B1BFFFFFFFFF
+- expected_values:
+    HARDTOP_ODO_DME: 111059
+  response: |-
+    612F1100762558E0001
+    612F121B1D3FFFFFFFF

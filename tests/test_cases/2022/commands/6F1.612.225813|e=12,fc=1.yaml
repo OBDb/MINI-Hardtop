@@ -1,5 +1,29 @@
 command_id: 6F1.612.225813|e=12,fc=1
 test_cases:
 - expected_values:
+    HARDTOP_LOAD: 12
+  response: 612F10462581310
+- expected_values:
     HARDTOP_LOAD: 13.5
   response: 612F10462581312
+- expected_values:
+    HARDTOP_LOAD: 26.25
+  response: 612F10462581323
+- expected_values:
+    HARDTOP_LOAD: 28.5
+  response: 612F10462581326
+- expected_values:
+    HARDTOP_LOAD: 34.5
+  response: 612F1046258132E
+- expected_values:
+    HARDTOP_LOAD: 36
+  response: 612F10462581330
+- expected_values:
+    HARDTOP_LOAD: 36.75
+  response: 612F10462581331
+- expected_values:
+    HARDTOP_LOAD: 38.25
+  response: 612F10462581333
+- expected_values:
+    HARDTOP_LOAD: 39.75
+  response: 612F10462581335

@@ -4,8 +4,8 @@ test_cases:
     MINI_STEER_TQ: 0.03125
   response: 630F10662DB99000400
 - expected_values:
-    MINI_STEER_TQ: 0.07031
-  response: 630F10662DB99000900
+    MINI_STEER_TQ: -1.6875
+  response: 630F10662DB99FF2800
 - expected_values:
-    MINI_STEER_TQ: 0.08594
-  response: 630F10662DB99000B00
+    MINI_STEER_TQ: -0.21875
+  response: 630F10662DB99FFE400

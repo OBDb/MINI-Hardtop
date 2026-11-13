@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     HARDTOP_OIL_LEVEL: 59
   response: 612F10462442C3B
+- expected_values:
+    HARDTOP_OIL_LEVEL: 60
+  response: 612F10462442C3C
+- expected_values:
+    HARDTOP_OIL_LEVEL: 61
+  response: 612F10462442C3D
+- expected_values:
+    HARDTOP_OIL_LEVEL: 63
+  response: 612F10462442C3F
+- expected_values:
+    HARDTOP_OIL_LEVEL: 68
+  response: 612F10462442C44

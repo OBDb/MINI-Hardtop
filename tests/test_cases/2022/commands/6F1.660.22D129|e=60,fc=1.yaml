@@ -2,18 +2,25 @@ command_id: 6F1.660.22D129|e=60,fc=1
 test_cases:
 - expected_values:
     MINI_BC_AVG_CONS: 0
-    MINI_BC_AVG_SPD: 62.1
+    MINI_BC_AVG_SPD: 61
     MINI_BC_RANGE: 0
   response: |-
     660F1100B62D1290000
-    660F1211842FFFD0000
+    660F12117D4FFFD0000
 - expected_values:
     MINI_BC_AVG_CONS: 0
-    MINI_BC_AVG_SPD: 62.8
+    MINI_BC_AVG_SPD: 61.1
     MINI_BC_RANGE: 0
   response: |-
     660F1100B62D1290000
-    660F1211888FFFD0000
+    660F12117DEFFFD0000
+- expected_values:
+    MINI_BC_AVG_CONS: 0
+    MINI_BC_AVG_SPD: 61.6
+    MINI_BC_RANGE: 0
+  response: |-
+    660F1100B62D1290000
+    660F1211810FFFD0000
 - expected_values:
     MINI_BC_AVG_CONS: 0
     MINI_BC_AVG_SPD: 63.4
