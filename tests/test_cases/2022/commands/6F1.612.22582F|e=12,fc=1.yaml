@@ -1,0 +1,11 @@
+command_id: 6F1.612.22582F|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_CAT_T: 372.15
+  response: 612F10562582F1935
+- expected_values:
+    HARDTOP_CAT_T: 388.25
+  response: 612F10562582F19D6
+- expected_values:
+    HARDTOP_CAT_T: 454.65
+  response: 612F10562582F1C6E

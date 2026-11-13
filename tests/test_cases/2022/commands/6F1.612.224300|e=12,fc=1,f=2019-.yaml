@@ -1,0 +1,11 @@
+command_id: 6F1.612.224300|e=12,fc=1,f=2019-
+test_cases:
+- expected_values:
+    HARDTOP_ET: 63.05
+  response: 612F1056243000D22
+- expected_values:
+    HARDTOP_ET: 81.95
+  response: 612F1056243000DDF
+- expected_values:
+    HARDTOP_ET: 82.75
+  response: 612F1056243000DE7
