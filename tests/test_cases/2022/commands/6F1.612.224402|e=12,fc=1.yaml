@@ -1,0 +1,11 @@
+command_id: 6F1.612.224402|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_EOT: 67
+  response: 612F1056244020086
+- expected_values:
+    HARDTOP_EOT: 76.5
+  response: 612F1056244020099
+- expected_values:
+    HARDTOP_EOT: 84
+  response: 612F10562440200A8

@@ -1,0 +1,11 @@
+command_id: 6F1.612.224408|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_EOT_DME: 53.45
+  response: 612F1056244080CC2
+- expected_values:
+    HARDTOP_EOT_DME: 67.55
+  response: 612F1056244080D4F
+- expected_values:
+    HARDTOP_EOT_DME: 78.75
+  response: 612F1056244080DBF

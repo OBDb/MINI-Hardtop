@@ -1,0 +1,11 @@
+command_id: 6F1.612.2258BA|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_CRANK_TQ: 32.6
+  response: 612F1056258BA0146
+- expected_values:
+    HARDTOP_CRANK_TQ: 32.7
+  response: 612F1056258BA0147
+- expected_values:
+    HARDTOP_CRANK_TQ: 34.8
+  response: 612F1056258BA015C

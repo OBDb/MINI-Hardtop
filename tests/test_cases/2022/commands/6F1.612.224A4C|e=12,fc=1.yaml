@@ -1,0 +1,11 @@
+command_id: 6F1.612.224A4C|e=12,fc=1
+test_cases:
+- expected_values:
+    HARDTOP_IGN_TIMING_3: 3.5
+  response: 612F105624A4C0023
+- expected_values:
+    HARDTOP_IGN_TIMING_3: 3.7
+  response: 612F105624A4C0025
+- expected_values:
+    HARDTOP_IGN_TIMING_3: -2.3
+  response: 612F105624A4CFFE9
