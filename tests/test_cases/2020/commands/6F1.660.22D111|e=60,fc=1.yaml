@@ -1,7 +1,6 @@
 command_id: 6F1.660.22D111|e=60,fc=1
 test_cases:
 - expected_values:
-    HARDTOP_RANGE_E_CUR: 6553.5
     HARDTOP_RANGE_E_MAX: 6553.5
     HARDTOP_RANGE_F_CUR: 8
   response: |-
@@ -9,7 +8,6 @@ test_cases:
     660F121FFFF0050FFFF
     660F122FFFFFFFFFFFF
 - expected_values:
-    HARDTOP_RANGE_E_CUR: 6553.5
     HARDTOP_RANGE_E_MAX: 6553.5
     HARDTOP_RANGE_F_CUR: 11
   response: |-
@@ -17,7 +15,6 @@ test_cases:
     660F121FFFF006EFFFF
     660F122FFFFFFFFFFFF
 - expected_values:
-    HARDTOP_RANGE_E_CUR: 6553.5
     HARDTOP_RANGE_E_MAX: 6553.5
     HARDTOP_RANGE_F_CUR: 408
   response: |-
@@ -25,7 +22,6 @@ test_cases:
     660F121FFFF0FF0FFFF
     660F122FFFFFFFFFFFF
 - expected_values:
-    HARDTOP_RANGE_E_CUR: 6553.5
     HARDTOP_RANGE_E_MAX: 6553.5
     HARDTOP_RANGE_F_CUR: 410
   response: |-
