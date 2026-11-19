@@ -202,7 +202,7 @@
   "signals": [
     {"id": "HARDTOP_EOP", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "5889"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021], "from": 2024 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "5889"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021], "from": 2023 },
   "signals": [
     {"id": "HARDTOP_LAMBDA", "path": "Engine", "fmt": { "len": 16, "max": 16, "mul": 16, "div": 65535, "nullmax": 15.99, "unit": "scalar" }, "name": "Lambda"}
   ]},
