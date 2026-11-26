@@ -13,5 +13,8 @@ test_cases:
     HARDTOP_FRP: 248.96
   response: 612F1056256D730A0
 - expected_values:
+    HARDTOP_FRP: 348.64
+  response: 612F1056256D74418
+- expected_values:
     HARDTOP_FRP: 401.4
   response: 612F1056256D74E66

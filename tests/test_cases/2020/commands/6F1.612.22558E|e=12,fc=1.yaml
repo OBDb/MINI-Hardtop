@@ -15,3 +15,8 @@ test_cases:
   response: |-
     612F1100762558E0002
     612F1212D32FFFFFFFF
+- expected_values:
+    HARDTOP_ODO_DME: 143843
+  response: |-
+    612F1100762558E0002
+    612F12131E3FFFFFFFF
