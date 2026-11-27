@@ -52,6 +52,7 @@ supported_commands_by_ecu:
   - 6F1.678.22D931|e=78,fc=1:MINI_HVAC_RECIRC
   "7DF":
   - 7DF.0106
+  - 7DF.010C
   - 7DF.0110
   - 7DF.012F
   - 7DF.0131
